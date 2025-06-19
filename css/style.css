@@ -1,3 +1,19 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   background-color: #ffffff;
@@ -16,8 +32,8 @@ button:focus {
   background-color: #404bbf;
 }
 
-ul {
-  list-style-type: none;
+.container {
+  width: 1158px;
 }
 
 /* -------------------------header start------------------------- */
