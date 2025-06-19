@@ -34,9 +34,22 @@ button:focus {
 
 .container {
   width: 1158px;
+  margin: 0 auto;
 }
 
 /* -------------------------header start------------------------- */
+
+.container-container {
+  display: flex;
+}
+
+.navigation {
+  display: flex;
+  flex-grow: 1;
+}
+.navigation a {
+  flex-grow: 1;
+}
 
 .navigation-link {
   color: #4d5ae5;
@@ -51,6 +64,7 @@ button:focus {
   color: #2e2f42;
 }
 .navigation-list {
+  display: flex;
   line-height: 1.5;
   letter-spacing: 0.02em;
   font-weight: 500;
@@ -58,6 +72,7 @@ button:focus {
 }
 
 .address {
+  display: flex;
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
