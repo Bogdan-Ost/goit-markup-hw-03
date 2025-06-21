@@ -84,7 +84,7 @@ button:focus {
   gap: 40px;
 }
 
-.address-list-item {
+.navigation-list-item-link {
   padding: 24px 0 24px;
 }
 
@@ -308,10 +308,6 @@ button:focus {
   color: #f4f4fd;
   padding-bottom: 100px;
 }
-.studio {
-  color: #f4f4fd;
-  margin-left: 0px;
-}
 
 .navigation-link-bottom {
   color: #4d5ae5;
@@ -323,6 +319,11 @@ button:focus {
   font-size: 18px;
   display: inline-block;
   margin-bottom: 16px;
+}
+
+.studio {
+  color: #f4f4fd;
+  margin-left: 0px;
 }
 
 .bottom-container {
