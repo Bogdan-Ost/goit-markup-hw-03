@@ -326,9 +326,4 @@ button:focus {
   margin-left: 0px;
 }
 
-.bottom-container {
-  display: flex;
-  flex-direction: column;
-}
-
 /* --------------------------footer end-------------------------- */
