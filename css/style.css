@@ -43,14 +43,19 @@ button:focus {
 
 /* -------------------------header start------------------------- */
 
+.header-border {
+  border-bottom: 1px solid #e7e9fc;
+}
+
 .container-container {
   display: flex;
-  margin: 24px auto;
-  width: 1440px;
+  margin: 0 auto;
+  padding: 0 15px 0 15px;
 }
 
 .navigation {
   display: flex;
+  align-items: center;
 }
 
 .navigation-link {
@@ -65,8 +70,10 @@ button:focus {
 }
 .logo-top {
   margin-left: 0px;
-  margin-right: 76px;
   color: #2e2f42;
+}
+.logo-top-nav {
+  margin-right: 76px;
 }
 .navigation-list {
   display: flex;
@@ -75,7 +82,7 @@ button:focus {
   font-weight: 500;
   font-size: 16px;
   gap: 40px;
-  margin-right: 332px;
+  padding: 24px 0 24px;
 }
 
 .address {
@@ -90,6 +97,7 @@ button:focus {
 .address-list {
   gap: 40px;
   display: flex;
+  padding: 24px 0 24px;
 }
 
 .address-list-item-contacts {
