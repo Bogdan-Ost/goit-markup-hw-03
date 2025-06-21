@@ -82,6 +82,9 @@ button:focus {
   font-weight: 500;
   font-size: 16px;
   gap: 40px;
+}
+
+.address-list-item {
   padding: 24px 0 24px;
 }
 
@@ -273,6 +276,7 @@ button:focus {
   letter-spacing: 0.02em;
   font-weight: 500;
   font-size: 20px;
+  margin-bottom: 8px;
 }
 .portfolio-list-item-text {
   line-height: 1.5;
@@ -288,7 +292,6 @@ button:focus {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 /* ------------------------portfolio end------------------------ */
 
@@ -296,6 +299,7 @@ button:focus {
 
 .bottom {
   background: #2e2f42;
+  padding: 100px 0 100px;
 }
 .bottom-text {
   font-size: 16px;
@@ -303,7 +307,6 @@ button:focus {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   padding-bottom: 100px;
-  margin-top: 18px;
 }
 .studio {
   color: #f4f4fd;
@@ -318,10 +321,8 @@ button:focus {
   text-transform: uppercase;
   font-weight: 700;
   font-size: 18px;
-}
-
-.logo-container {
-  padding-top: 100px;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .bottom-container {
