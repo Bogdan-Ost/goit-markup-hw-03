@@ -8,6 +8,10 @@ p {
   margin: 0;
 }
 
+img {
+  display: block;
+}
+
 ul {
   margin: 0;
   padding-left: 0;
@@ -47,8 +51,6 @@ button:focus {
 
 .navigation {
   display: flex;
-}
-.navigation a {
 }
 
 .navigation-link {
@@ -157,7 +159,7 @@ button:focus {
   color: #434455;
 }
 
-.benefits-list-container {
+.benefits-list {
   display: flex;
   gap: 24px;
   justify-content: center;
@@ -171,7 +173,7 @@ button:focus {
   background-color: #f4f4fd;
 }
 
-.team-list-container {
+.team-list {
   display: flex;
   justify-content: center;
   gap: 24px;
@@ -229,6 +231,11 @@ button:focus {
   text-transform: capitalize;
   margin-bottom: 72px;
 }
+.portfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
 .portfolio-list-item-title {
   color: #2e2f42;
   line-height: 1.2;
@@ -244,12 +251,6 @@ button:focus {
   font-size: 16px;
   color: #434455;
   padding-bottom: 32px;
-}
-
-.portfolio-list-container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 48px 24px;
 }
 
 /* ------------------------portfolio end------------------------ */
