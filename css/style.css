@@ -110,8 +110,8 @@ button:focus {
 
 .herobaner {
   background: #2e2f42;
-  height: 600px;
   margin-bottom: 120px;
+  padding: 188px 0 188px;
 }
 .herobaner-title {
   line-height: 1.07;
@@ -120,8 +120,9 @@ button:focus {
   font-weight: 700;
   font-size: 56px;
   color: #ffffff;
-  padding-top: 188px;
-  padding-bottom: 48px;
+  max-width: 496px;
+  margin: 0 auto;
+  margin-bottom: 48px;
 }
 .herobaner-button {
   font-weight: 500;
@@ -134,10 +135,11 @@ button:focus {
   cursor: pointer;
   padding: 16px 32px;
   display: block;
-}
-.herobaner-button-flex {
-  display: flex;
-  justify-content: center;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  margin: 0 auto;
 }
 
 /* ------------------------herobaner end------------------------ */
