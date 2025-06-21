@@ -147,11 +147,28 @@ button:focus {
 /* ------------------------benefits start------------------------ */
 
 .benefits {
-  margin-bottom: 120px;
+  padding: 120px 0 120px;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .benefits-title {
   display: none;
+}
+.benefits-list-item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .benefits-list-item-title {
@@ -181,14 +198,14 @@ button:focus {
 
 .team {
   background-color: #f4f4fd;
+  padding: 120px 0 120px;
 }
 
 .team-list {
   display: flex;
   justify-content: center;
   gap: 24px;
-  padding-bottom: 120px;
-  margin-bottom: 120px;
+  padding-bottom: 120px 0 120px;
 }
 
 .team-title {
@@ -199,11 +216,12 @@ button:focus {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
-  padding-top: 120px;
-  padding-bottom: 72px;
+  margin-bottom: 72px;
 }
 .team-list-item {
   background-color: #ffffff;
+  flex-basis: calc((100% - 3 * 24px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .team-list-item-title {
   color: #2e2f42;
@@ -212,7 +230,6 @@ button:focus {
   text-align: center;
   font-weight: 500;
   font-size: 20px;
-  margin-top: 32px;
   margin-bottom: 8px;
 }
 .team-list-item-text {
@@ -221,6 +238,10 @@ button:focus {
   text-align: center;
   font-size: 16px;
   color: #434455;
+}
+
+.team-list-item-container {
+  padding: 32px 0 32px;
 }
 
 /* ---------------------------team end--------------------------- */
